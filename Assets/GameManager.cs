@@ -14,13 +14,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown("r")&&uIManager.reloadLevelbool==true){
-        ReloadLevel();
-        }
-    }
-     public void ReloadLevel(){
-        
-            SceneManager.LoadScene(0);
         
     }
+  
 }
